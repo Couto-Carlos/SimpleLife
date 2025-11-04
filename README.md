@@ -1,9 +1,5 @@
 # VidaSimples: Seu Seguro de Vida 100% Digital
 
-<p align="center">
-<img src="https://i.imgur.com/your-hero-image-link.jpg" alt="Família feliz com criança como super-herói, representando proteção e segurança." width="600"/>
-</p>
-
 ## 🚀 Sobre o Projeto
 
 O **VidaSimples** é um projeto inovador de `insurtech` (tecnologia + seguros) focado em descomplicar o acesso ao seguro de vida. Inspirado no sucesso de modelos digitais, nosso objetivo é oferecer uma experiência **prática, fácil e transparente** para quem busca proteger o futuro de sua família.
