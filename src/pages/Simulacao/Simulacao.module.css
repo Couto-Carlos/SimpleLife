@@ -1,0 +1,99 @@
+.simulacaoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 5%;
+  background-color: #f4f7f6;
+  min-height: 80vh;
+}
+
+.formBox {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background: #e9ecef;
+}
+
+.progress {
+  height: 100%;
+  background: #007bff; /* Azul primário */
+  transition: width 0.3s ease;
+}
+
+.step {
+  padding: 40px;
+}
+
+.step h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.step label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.step input[type="text"],
+.step input[type="date"],
+.step select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.slider {
+  width: 100%;
+  margin-top: 10px;
+}
+.sliderLabel strong {
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.resultadoBox {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.precoFinal {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.precoFinal span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #28a745; /* Verde Sucesso */
+}
+
+.error {
+  color: #dc3545; /* Vermelho de erro */
+  font-size: 0.875rem; /* 14px */
+  margin-top: -15px; /* Puxa para cima, para perto do input */
+  margin-bottom: 10px;
+  display: block;
+}

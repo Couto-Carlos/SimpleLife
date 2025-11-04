@@ -1,0 +1,43 @@
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 15px 0; /* Removido o padding lateral, agora o .container cuida disso */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1200px; <--- REMOVA ESTA LINHA! */
+  /* margin: 0 auto; <--- REMOVA ESTA LINHA! */
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: #495057;
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: color 0.2s ease;
+}
+
+.navList li a:hover {
+  color: #007bff;
+}

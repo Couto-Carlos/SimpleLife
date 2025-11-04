@@ -1,0 +1,36 @@
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.btn:disabled {
+  background-color: #ced4da; /* cinza */
+  cursor: not-allowed;
+}
+
+/* Variante Primária (Ação Principal) */
+.primary {
+  background-color: #007bff; /* Azul */
+  color: white;
+}
+
+.primary:not(:disabled):hover {
+  background-color: #0056b3; /* Azul mais escuro */
+}
+
+/* Variante Secundária (Ação de 'Voltar', 'Cancelar') */
+.secondary {
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.secondary:not(:disabled):hover {
+  background-color: #e7f3ff; /* Fundo azul bem claro */
+}

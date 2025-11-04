@@ -1,0 +1,40 @@
+/* Isso cria classes únicas, como 'Home_heroSection__aBc12' */
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 5%;
+  background-color: #f8f9fa; /* Fundo claro */
+  min-height: 80vh;
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 550px;
+  margin-right: 40px;
+}
+
+.heroTitle {
+  font-size: 3.5rem; /* 56px */
+  font-weight: 700;
+  color: #212529; /* Preto suave */
+  line-height: 1.2;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem; /* 20px */
+  color: #495057; /* Cinza */
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.heroImageContainer {
+  flex: 1;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}

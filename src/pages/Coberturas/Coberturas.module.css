@@ -1,0 +1,45 @@
+.pageContent {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.pageContent h1 {
+  font-size: 2.8rem;
+  color: #212529;
+  margin-bottom: 20px;
+}
+
+.pageContent p {
+  font-size: 1.1rem;
+  color: #495057;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.coverageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.coverageCard {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+  text-align: left;
+}
+
+.coverageCard h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.coverageCard p {
+  font-size: 1rem;
+  color: #6c757d;
+  line-height: 1.8;
+  margin-bottom: 0; /* Resetting default p margin */
+}
